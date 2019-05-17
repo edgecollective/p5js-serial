@@ -14,6 +14,10 @@ This setup requires running NodeJS version 6 (and not higher), so we'll be using
 
 It will additionally require installing and running 'p5.serialserver', a NodeJS server that listens to the serialport and passes along any information via a websocket (covered below).   
 
+## Download the contents of this repo to a folder on your computer
+
+You can use the 'clone or download' button on this page.
+
 ## Install NVM
 
 Install the latest version of [nvm](https://github.com/nvm-sh/nvm), using the instructions [here](https://github.com/nvm-sh/nvm#installation-and-update). 
@@ -63,7 +67,7 @@ You also need to start a Python server for your web page.  Open a new terminal w
 python -m SimpleHTTPServer 8080
 ```
 
-## Open webpage in browser 
+## Open index.html in browser 
 
 Using Chrome, Firefox, or equivalent, open your browser to 'localhost:8080'
 

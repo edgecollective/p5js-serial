@@ -20,8 +20,9 @@ Install the latest version of [nvm](https://github.com/nvm-sh/nvm), using the in
 
 As of May 2019, an easy way to do this is to use 'curl':
 
-> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
- 
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+``` 
 
 
 ## Install Node 6

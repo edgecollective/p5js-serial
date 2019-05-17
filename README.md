@@ -2,7 +2,7 @@
 
 ## Overview
 
-This code allows p5js to talk to microcontroller hardware via the serial port. 
+This code (based on the NYU ITP tutorial [here](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-arduino-and-p5js-using-a-raspberry-pi/)) allows p5js to talk to microcontroller hardware via the serial port. 
 
 The basic setup assumed here is:  
 - you are running this code on a laptop or e.g. a Raspberry Pi 
@@ -15,6 +15,14 @@ This setup requires running NodeJS version 6 (and not higher), so we'll be using
 It will additionally require installing and running 'p5.serialserver', a NodeJS server that listens to the serialport and passes along any information via a websocket (covered below).   
 
 ## Install NVM
+
+Install the latest version of [nvm](https://github.com/nvm-sh/nvm), using the instructions [here](https://github.com/nvm-sh/nvm#installation-and-update). 
+
+As of May 2019, an easy way to do this is to use 'curl':
+
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+ 
+
 
 ## Install Node 6
 

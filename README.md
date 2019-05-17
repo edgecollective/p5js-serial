@@ -24,8 +24,12 @@ As of May 2019, an easy way to do this is to use 'curl':
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ``` 
 
+## Use NVM to install Node 6
 
-## Install Node 6
+```
+nvm install 6
+nvm use 6
+```
 
 ## Install p5.serialserver
 

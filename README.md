@@ -33,12 +33,39 @@ nvm use 6
 
 ## Install p5.serialserver
 
+```
 npm install -g p5.serialserver --unsafe-perm --build-from-source
+```
 
-## Run p5.serialserver
+## Run p5serial
+
+You'll need to run p5serial in a separate process.  Open a new terminal window and type:
+ 
+```
+p5serial
+```
+
+and hit return.  You should see a message indicating that p5serial is running.
+
+## Modify sketch.js to include your serialport name
+
+You'll need to modify line #2 of 'sketch.js' to reflect the name of the serialport to which your microcontroller is connected:
+
+```
+var portName = '/dev/ttyUSB0';  // fill in your serial port name here
+```
 
 ## Run SimpleHTTPServer
 
+You also need to start a Python server for your web page.  Open a new terminal window and type:
+
+```
+python -m SimpleHTTPServer 8080
+```
+
 ## Open webpage in browser 
 
+Using Chrome, Firefox, or equivalent, open your browser to 'localhost:8080'
+
+You should see a graphic whose position reflects the integers being sent to the serialport by your microcontroller.
 

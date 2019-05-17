@@ -67,5 +67,5 @@ python -m SimpleHTTPServer 8080
 
 Using Chrome, Firefox, or equivalent, open your browser to 'localhost:8080'
 
-You should see a graphic whose position reflects the integers being sent to the serialport by your microcontroller.
+You should see a vertical bar with a dot, where the position of the graphic reflects the integers being sent to the serialport by your microcontroller.
 
